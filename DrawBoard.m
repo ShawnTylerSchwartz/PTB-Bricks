@@ -22,9 +22,9 @@ function [scrnslice_across_sets, scrnslice_down_sets] = DrawBoard(genboard,mywin
 % @Author: (c) Shawn Tyler Schwartz, 2017
 % @Website: https://shawntylerschwartz.com
 %
-% ?I wrote my game "Bricks Breaking" in Matlab, using the Psychophysics Toolbox 
+% "I wrote my game "Bricks Breaking" in Matlab, using the Psychophysics Toolbox 
 % extensions (Brainard, 1997; Pelli, 1997; Kleiner et al, 2007) for UCLA 
-% Psychology 20B, Spring 2017 with Professor Dr. Uri Maoz.?
+% Psychology 20B, Spring 2017 with Professor Dr. Uri Maoz."
 
 indboard = reshape(genboard', [1 225]); % reshape board for modification purposes
 

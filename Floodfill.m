@@ -18,9 +18,9 @@ function [m,connectedBricks] = Floodfill(genboard,returned_location_val)
 % @Author: (c) Shawn Tyler Schwartz, 2017
 % @Website: https://shawntylerschwartz.com
 %
-% ?I wrote my game "Bricks Breaking" in Matlab, using the Psychophysics Toolbox 
+% "I wrote my game "Bricks Breaking" in Matlab, using the Psychophysics Toolbox 
 % extensions (Brainard, 1997; Pelli, 1997; Kleiner et al, 2007) for UCLA 
-% Psychology 20B, Spring 2017 with Professor Dr. Uri Maoz.?
+% Psychology 20B, Spring 2017 with Professor Dr. Uri Maoz."
 
 mirroredBoard = zeros(15);
 mirroredBoard(returned_location_val(1),returned_location_val(2)) = 1;

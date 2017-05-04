@@ -1,3 +1,11 @@
+% @File: mainptbtesting.m
+% @Author: (c) Shawn Tyler Schwartz, 2017
+% @Website: https://shawntylerschwartz.com
+%
+% "I wrote my game "Bricks Breaking" in Matlab, using the Psychophysics Toolbox 
+% extensions (Brainard, 1997; Pelli, 1997; Kleiner et al, 2007) for UCLA 
+% Psychology 20B, Spring 2017 with Professor Dr. Uri Maoz."
+
 % Clear the workspace and the screen
 sca;
 close all;
