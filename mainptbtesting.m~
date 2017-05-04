@@ -493,7 +493,7 @@ end
 for a = 1:length(connectedBricks)
     currentRow = connectedBricks{a}(1);
     currentCol = connectedBricks{a}(2);
-    genboard(currentRow, currentCol) = 0;
+    genboard(currentRow, currentCol) = 1;
 end
 
 % separate and store each of the columns from the game board playing
@@ -675,10 +675,7 @@ for i = 1:15
         color(1,i) = 0;
         color(2,i) = 0;
         color(3,i) = 255;
-    elseif newIndBoard(i) == 0
-        color(1,i) = 0;
-        color(2,i) = 0;
-        color(3,i) = 0;
+    
     end
 end
 
@@ -700,10 +697,6 @@ for i = 16:30
         color(1,i) = 0;
         color(2,i) = 0;
         color(3,i) = 255;
-    elseif newIndBoard(i) == 0
-        color(1,i) = 0;
-        color(2,i) = 0;
-        color(3,i) = 0;
     end
     temp_counter = temp_counter + 1;
 end
@@ -726,10 +719,6 @@ for i = 31:45
         color(1,i) = 0;
         color(2,i) = 0;
         color(3,i) = 255;
-    elseif newIndBoard(i) == 0
-        color(1,i) = 0;
-        color(2,i) = 0;
-        color(3,i) = 0;
     end
     temp_counter = temp_counter + 1;
 end
@@ -752,10 +741,6 @@ for i = 46:60
         color(1,i) = 0;
         color(2,i) = 0;
         color(3,i) = 255;
-    elseif newIndBoard(i) == 0
-        color(1,i) = 0;
-        color(2,i) = 0;
-        color(3,i) = 0;
     end
     temp_counter = temp_counter + 1;
 end
@@ -778,10 +763,6 @@ for i = 61:75
         color(1,i) = 0;
         color(2,i) = 0;
         color(3,i) = 255;
-    elseif newIndBoard(i) == 0
-        color(1,i) = 0;
-        color(2,i) = 0;
-        color(3,i) = 0;
     end
     temp_counter = temp_counter + 1;
 end
@@ -804,10 +785,6 @@ for i = 76:90
         color(1,i) = 0;
         color(2,i) = 0;
         color(3,i) = 255;
-    elseif newIndBoard(i) == 0
-        color(1,i) = 0;
-        color(2,i) = 0;
-        color(3,i) = 0;
     end
     temp_counter = temp_counter + 1;
 end
@@ -830,10 +807,6 @@ for i = 91:105
         color(1,i) = 0;
         color(2,i) = 0;
         color(3,i) = 255;
-    elseif newIndBoard(i) == 0
-        color(1,i) = 0;
-        color(2,i) = 0;
-        color(3,i) = 0;
     end
     temp_counter = temp_counter + 1;
 end
@@ -856,10 +829,6 @@ for i = 106:120
         color(1,i) = 0;
         color(2,i) = 0;
         color(3,i) = 255;
-    elseif newIndBoard(i) == 0
-        color(1,i) = 0;
-        color(2,i) = 0;
-        color(3,i) = 0;
     end
     temp_counter = temp_counter + 1;
 end
@@ -882,10 +851,6 @@ for i = 121:135
         color(1,i) = 0;
         color(2,i) = 0;
         color(3,i) = 255;
-    elseif newIndBoard(i) == 0
-        color(1,i) = 0;
-        color(2,i) = 0;
-        color(3,i) = 0;
     end
     temp_counter = temp_counter + 1;
 end
@@ -908,10 +873,6 @@ for i = 136:150
         color(1,i) = 0;
         color(2,i) = 0;
         color(3,i) = 255;
-    elseif newIndBoard(i) == 0
-        color(1,i) = 0;
-        color(2,i) = 0;
-        color(3,i) = 0;
     end
     temp_counter = temp_counter + 1;
 end
@@ -934,10 +895,6 @@ for i = 151:165
         color(1,i) = 0;
         color(2,i) = 0;
         color(3,i) = 255;
-    elseif newIndBoard(i) == 0
-        color(1,i) = 0;
-        color(2,i) = 0;
-        color(3,i) = 0;
     end
     temp_counter = temp_counter + 1;
 end
@@ -960,10 +917,6 @@ for i = 166:180
         color(1,i) = 0;
         color(2,i) = 0;
         color(3,i) = 255;
-    elseif newIndBoard(i) == 0
-        color(1,i) = 0;
-        color(2,i) = 0;
-        color(3,i) = 0;
     end
     temp_counter = temp_counter + 1;
 end
@@ -986,10 +939,6 @@ for i = 181:195
         color(1,i) = 0;
         color(2,i) = 0;
         color(3,i) = 255;
-    elseif newIndBoard(i) == 0
-        color(1,i) = 0;
-        color(2,i) = 0;
-        color(3,i) = 0;
     end
     temp_counter = temp_counter + 1;
 end
@@ -1012,10 +961,6 @@ for i = 196:210
         color(1,i) = 0;
         color(2,i) = 0;
         color(3,i) = 255;
-    elseif newIndBoard(i) == 0
-        color(1,i) = 0;
-        color(2,i) = 0;
-        color(3,i) = 0;
     end
     temp_counter = temp_counter + 1;
 end
@@ -1038,10 +983,6 @@ for i = 211:225
         color(1,i) = 0;
         color(2,i) = 0;
         color(3,i) = 255;
-    elseif newIndBoard(i) == 0
-        color(1,i) = 0;
-        color(2,i) = 0;
-        color(3,i) = 0;
     end
     temp_counter = temp_counter + 1;
 end
