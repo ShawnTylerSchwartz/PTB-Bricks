@@ -19,6 +19,7 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
 %
 % @Author: (c) Shawn Tyler Schwartz, 2017
 % @Website: https://shawntylerschwartz.com
+% @Project Site: git.shawntylerschwartz.com/PTB-Bricks
 %
 % "I wrote my game "Bricks Breaking" in Matlab, using the Psychophysics Toolbox 
 % extensions (Brainard, 1997; Pelli, 1997; Kleiner et al, 2007) for UCLA 
@@ -188,11 +189,19 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
     if numel(newColumn15) ~= 15
         newColumn15 = newColumn15';
         newColumn15 = [zeros(1,col15numeldiff) newColumn15]'
-    end
+    end       
 
     newBoard = [newColumn1 newColumn2 newColumn3 newColumn4 newColumn5 newColumn6 ...
         newColumn7 newColumn8 newColumn9 newColumn10 newColumn11 newColumn12 ...
         newColumn13 newColumn14 newColumn15];
+    
+    % squeeze function
+    for zz = 1:15
+        while newBoard(:,zz) == 0
+            newBoard(:,zz) = [];
+            newBoard(:,15) = 5;
+        end
+    end
 
     newIndBoard = reshape(newBoard', [1 225]);
 

@@ -20,6 +20,7 @@ function [x,y,returned_location_val] = GetUserInput(scrnslice_across_sets,scrnsl
 %
 % @Author: (c) Shawn Tyler Schwartz, 2017
 % @Website: https://shawntylerschwartz.com
+% @Project Site: git.shawntylerschwartz.com/PTB-Bricks
 %
 % "I wrote my game "Bricks Breaking" in Matlab, using the Psychophysics Toolbox 
 % extensions (Brainard, 1997; Pelli, 1997; Kleiner et al, 2007) for UCLA 

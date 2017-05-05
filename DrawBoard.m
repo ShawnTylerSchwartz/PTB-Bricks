@@ -21,6 +21,7 @@ function [scrnslice_across_sets, scrnslice_down_sets] = DrawBoard(genboard,mywin
 %
 % @Author: (c) Shawn Tyler Schwartz, 2017
 % @Website: https://shawntylerschwartz.com
+% @Project Site: git.shawntylerschwartz.com/PTB-Bricks
 %
 % "I wrote my game "Bricks Breaking" in Matlab, using the Psychophysics Toolbox 
 % extensions (Brainard, 1997; Pelli, 1997; Kleiner et al, 2007) for UCLA 
@@ -82,6 +83,10 @@ indboard = reshape(genboard', [1 225]); % reshape board for modification purpose
             color(1,i) = 0;
             color(2,i) = 0;
             color(3,i) = 0;
+        elseif indboard(i) == 5 % black brick (empty brick) for squeeze
+            color(1,i) = 0;
+            color(2,i) = 0;
+            color(3,i) = 0;
         end
     end
 
@@ -107,6 +112,10 @@ indboard = reshape(genboard', [1 225]); % reshape board for modification purpose
             color(2,i) = 0;
             color(3,i) = 255;
         elseif indboard(i) == 0
+            color(1,i) = 0;
+            color(2,i) = 0;
+            color(3,i) = 0;
+        elseif indboard(i) == 5
             color(1,i) = 0;
             color(2,i) = 0;
             color(3,i) = 0;
@@ -139,6 +148,10 @@ indboard = reshape(genboard', [1 225]); % reshape board for modification purpose
             color(1,i) = 0;
             color(2,i) = 0;
             color(3,i) = 0;
+        elseif indboard(i) == 5
+            color(1,i) = 0;
+            color(2,i) = 0;
+            color(3,i) = 0;
         end
         temp_counter = temp_counter + 1;
     end
@@ -165,6 +178,10 @@ indboard = reshape(genboard', [1 225]); % reshape board for modification purpose
             color(2,i) = 0;
             color(3,i) = 255;
         elseif indboard(i) == 0
+            color(1,i) = 0;
+            color(2,i) = 0;
+            color(3,i) = 0;
+        elseif indboard(i) == 5
             color(1,i) = 0;
             color(2,i) = 0;
             color(3,i) = 0;
@@ -197,6 +214,10 @@ indboard = reshape(genboard', [1 225]); % reshape board for modification purpose
             color(1,i) = 0;
             color(2,i) = 0;
             color(3,i) = 0;
+        elseif indboard(i) == 5
+            color(1,i) = 0;
+            color(2,i) = 0;
+            color(3,i) = 0;
         end
         temp_counter = temp_counter + 1;
     end
@@ -223,6 +244,10 @@ indboard = reshape(genboard', [1 225]); % reshape board for modification purpose
             color(2,i) = 0;
             color(3,i) = 255;
         elseif indboard(i) == 0
+            color(1,i) = 0;
+            color(2,i) = 0;
+            color(3,i) = 0;
+        elseif indboard(i) == 5
             color(1,i) = 0;
             color(2,i) = 0;
             color(3,i) = 0;
@@ -255,6 +280,10 @@ indboard = reshape(genboard', [1 225]); % reshape board for modification purpose
             color(1,i) = 0;
             color(2,i) = 0;
             color(3,i) = 0;
+        elseif indboard(i) == 5
+            color(1,i) = 0;
+            color(2,i) = 0;
+            color(3,i) = 0;
         end
         temp_counter = temp_counter + 1;
     end
@@ -281,6 +310,10 @@ indboard = reshape(genboard', [1 225]); % reshape board for modification purpose
             color(2,i) = 0;
             color(3,i) = 255;
         elseif indboard(i) == 0
+            color(1,i) = 0;
+            color(2,i) = 0;
+            color(3,i) = 0;
+        elseif indboard(i) == 5
             color(1,i) = 0;
             color(2,i) = 0;
             color(3,i) = 0;
@@ -313,6 +346,10 @@ indboard = reshape(genboard', [1 225]); % reshape board for modification purpose
             color(1,i) = 0;
             color(2,i) = 0;
             color(3,i) = 0;
+        elseif indboard(i) == 5
+            color(1,i) = 0;
+            color(2,i) = 0;
+            color(3,i) = 0;
         end
         temp_counter = temp_counter + 1;
     end
@@ -339,6 +376,10 @@ indboard = reshape(genboard', [1 225]); % reshape board for modification purpose
             color(2,i) = 0;
             color(3,i) = 255;
         elseif indboard(i) == 0
+            color(1,i) = 0;
+            color(2,i) = 0;
+            color(3,i) = 0;
+        elseif indboard(i) == 5
             color(1,i) = 0;
             color(2,i) = 0;
             color(3,i) = 0;
@@ -371,6 +412,10 @@ indboard = reshape(genboard', [1 225]); % reshape board for modification purpose
             color(1,i) = 0;
             color(2,i) = 0;
             color(3,i) = 0;
+        elseif indboard(i) == 5
+            color(1,i) = 0;
+            color(2,i) = 0;
+            color(3,i) = 0;
         end
         temp_counter = temp_counter + 1;
     end
@@ -397,6 +442,10 @@ indboard = reshape(genboard', [1 225]); % reshape board for modification purpose
             color(2,i) = 0;
             color(3,i) = 255;
         elseif indboard(i) == 0
+            color(1,i) = 0;
+            color(2,i) = 0;
+            color(3,i) = 0;
+        elseif indboard(i) == 5
             color(1,i) = 0;
             color(2,i) = 0;
             color(3,i) = 0;
@@ -429,6 +478,10 @@ for i = 181:195
         color(1,i) = 0;
         color(2,i) = 0;
         color(3,i) = 0;
+    elseif indboard(i) == 5
+            color(1,i) = 0;
+            color(2,i) = 0;
+            color(3,i) = 0;
     end
     temp_counter = temp_counter + 1;
 end
@@ -458,6 +511,10 @@ end
             color(1,i) = 0;
             color(2,i) = 0;
             color(3,i) = 0;
+        elseif indboard(i) == 5
+            color(1,i) = 0;
+            color(2,i) = 0;
+            color(3,i) = 0;
         end
         temp_counter = temp_counter + 1;
     end
@@ -484,6 +541,10 @@ end
             color(2,i) = 0;
             color(3,i) = 255;
         elseif indboard(i) == 0
+            color(1,i) = 0;
+            color(2,i) = 0;
+            color(3,i) = 0;
+        elseif indboard(i) == 5
             color(1,i) = 0;
             color(2,i) = 0;
             color(3,i) = 0;
