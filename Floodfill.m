@@ -82,7 +82,7 @@ end
 
 %   (m) = number of objects found
 %   (connectedBricks) = index of numbers found
-m = 0; % set i to equal zero for reset purposes for a starting count of 0
+m = 0; % set m to equal zero for reset purposes for a starting count of 0
 connectedBricks = []; % set connectedBricks to be an empty matrix that will be storing indices in a cell array later on (below)
 
 for a = 1:15 % counting from 1 to 15 for row indicies for the for loop

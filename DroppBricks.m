@@ -37,7 +37,7 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
 
 % separate and store each of the columns from the game board playing
 % matrix into separate matrices for simpler manipulation
-    column1 = genboard(:,1)
+    column1 = genboard(:,1);
     column2 = genboard(:,2);
     column3 = genboard(:,3);
     column4 = genboard(:,4);
@@ -59,7 +59,7 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
     col1numeldiff = col1nums - newcol1nums;
     if numel(newColumn1) ~= 15
         newColumn1 = newColumn1';
-        newColumn1 = [zeros(1,col1numeldiff) newColumn1]'
+        newColumn1 = [zeros(1,col1numeldiff) newColumn1]';
     end
 
     col2nums = numel(column2);
@@ -68,7 +68,7 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
     col2numeldiff = col2nums - newcol2nums;
     if numel(newColumn2) ~= 15
         newColumn2 = newColumn2';
-        newColumn2 = [zeros(1,col2numeldiff) newColumn2]'
+        newColumn2 = [zeros(1,col2numeldiff) newColumn2]';
     end
 
 
@@ -78,7 +78,7 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
     col3numeldiff = col3nums - newcol3nums;
     if numel(newColumn3) ~= 15
         newColumn3 = newColumn3';
-        newColumn3 = [zeros(1,col3numeldiff) newColumn3]'
+        newColumn3 = [zeros(1,col3numeldiff) newColumn3]';
     end
 
 
@@ -88,7 +88,7 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
     col4numeldiff = col4nums - newcol4nums;
     if numel(newColumn4) ~= 15
         newColumn4 = newColumn4';
-        newColumn4 = [zeros(1,col4numeldiff) newColumn4]'
+        newColumn4 = [zeros(1,col4numeldiff) newColumn4]';
     end
 
     col5nums = numel(column5);
@@ -97,7 +97,7 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
     col5numeldiff = col5nums - newcol5nums;
     if numel(newColumn5) ~= 15
         newColumn5 = newColumn5';
-        newColumn5 = [zeros(1,col5numeldiff) newColumn5]'
+        newColumn5 = [zeros(1,col5numeldiff) newColumn5]';
     end
 
     col6nums = numel(column6);
@@ -106,7 +106,7 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
     col6numeldiff = col6nums - newcol6nums;
     if numel(newColumn6) ~= 15
         newColumn6 = newColumn6';
-        newColumn6 = [zeros(1,col6numeldiff) newColumn6]'
+        newColumn6 = [zeros(1,col6numeldiff) newColumn6]';
     end
 
     col7nums = numel(column7);
@@ -115,7 +115,7 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
     col7numeldiff = col7nums - newcol7nums;
     if numel(newColumn7) ~= 15
         newColumn7 = newColumn7';
-        newColumn7 = [zeros(1,col7numeldiff) newColumn7]'
+        newColumn7 = [zeros(1,col7numeldiff) newColumn7]';
     end
 
 
@@ -125,7 +125,7 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
     col8numeldiff = col8nums - newcol8nums;
     if numel(newColumn8) ~= 15
         newColumn8 = newColumn8';
-        newColumn8 = [zeros(1,col8numeldiff) newColumn8]'
+        newColumn8 = [zeros(1,col8numeldiff) newColumn8]';
     end
 
     col9nums = numel(column9);
@@ -134,7 +134,7 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
     col9numeldiff = col9nums - newcol9nums;
     if numel(newColumn9) ~= 15
         newColumn9 = newColumn9';
-        newColumn9 = [zeros(1,col9numeldiff) newColumn9]'
+        newColumn9 = [zeros(1,col9numeldiff) newColumn9]';
     end
 
     col10nums = numel(column10);
@@ -143,7 +143,7 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
     col10numeldiff = col10nums - newcol10nums;
     if numel(newColumn10) ~= 15
         newColumn10 = newColumn10';
-        newColumn10 = [zeros(1,col10numeldiff) newColumn10]'
+        newColumn10 = [zeros(1,col10numeldiff) newColumn10]';
     end
 
     col11nums = numel(column11);
@@ -152,7 +152,7 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
     col11numeldiff = col11nums - newcol11nums;
     if numel(newColumn11) ~= 15
         newColumn11 = newColumn11';
-        newColumn11 = [zeros(1,col11numeldiff) newColumn11]'
+        newColumn11 = [zeros(1,col11numeldiff) newColumn11]';
     end
 
     col12nums = numel(column12);
@@ -161,7 +161,7 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
     col12numeldiff = col12nums - newcol12nums;
     if numel(newColumn12) ~= 15
         newColumn12 = newColumn12';
-        newColumn12 = [zeros(1,col12numeldiff) newColumn12]'
+        newColumn12 = [zeros(1,col12numeldiff) newColumn12]';
     end
 
     col13nums = numel(column13);
@@ -170,7 +170,7 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
     col13numeldiff = col13nums - newcol13nums;
     if numel(newColumn13) ~= 15
         newColumn13 = newColumn13';
-        newColumn13 = [zeros(1,col13numeldiff) newColumn13]'
+        newColumn13 = [zeros(1,col13numeldiff) newColumn13]';
     end
 
     col14nums = numel(column14);
@@ -179,7 +179,7 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
     col14numeldiff = col14nums - newcol14nums;
     if numel(newColumn14) ~= 15
         newColumn14 = newColumn14';
-        newColumn14 = [zeros(1,col14numeldiff) newColumn14]'
+        newColumn14 = [zeros(1,col14numeldiff) newColumn14]';
     end
 
     col15nums = numel(column15);
@@ -188,7 +188,7 @@ function [newBoard,newIndBoard] = DroppBricks(genboard, connectedBricks)
     col15numeldiff = col15nums - newcol15nums;
     if numel(newColumn15) ~= 15
         newColumn15 = newColumn15';
-        newColumn15 = [zeros(1,col15numeldiff) newColumn15]'
+        newColumn15 = [zeros(1,col15numeldiff) newColumn15]';
     end       
 
     newBoard = [newColumn1 newColumn2 newColumn3 newColumn4 newColumn5 newColumn6 ...
